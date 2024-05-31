@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --text-color:#FF5588
+}
+
+.container{
+    margin: 0px 100px;
+}
+
+
+*{
+    font-family:"Inter", sans-serif;
+}
+.Portfolio-section{
+    display: flex;
+    margin-top: 30px;
+}
+
+.left-section{
+    text-align: center;
+    margin-right: 50px;
+}
+
+.Portfolio-section img{
+    border-radius: 30px;
+}
+
+.Portfolio-section img:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.portfolio-icons{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+.portfolio-icons :hover{
+    color: var(--text-color);
+    cursor: pointer;
+    scale: 1.7;
+}
+
+.portfolio-btn{
+    border: 1px solid #333333;
+    border-radius: 10px;
+    padding: 15px 60px;
+    background: none;
+    margin-right: 10px;
+   
+}
+
+.portfolio-btn:hover{
+    background-color: var(--text-color);
+    color: #fff;
+    scale: 1.1;
+    box-shadow: 4px -1px 27px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+    border: none;
+}
+
+.right-section .hello-text{
+   color: var(--text-color);
+   font-weight:400;
+   font-size:24px;
+}
+
+.right-section h1{
+    font-weight:400;
+    font-size:30px;
+    color:#181818;
+}
+
+.right-section p{
+    font-weight:400;
+    font-size:20px;
+    color:#333333;
+}
+
+/* experience-section */
+.experience{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.experience h1{
+    color: var(--text-color);
+    font-weight:400;
+    font-size:45px;
+}
+
+.experience span{
+    font-weight:400;
+    font-size:20px;
+    color: 
+    #333333;
+}
+
+/* about-section */
+.about-section{
+    margin: 80px 0px;
+}
+
+.about-section h3{
+    font-weight:400;
+    font-size:30px;
+    color:#181818;
+}
+
+.about-section span{
+    color: var(--text-color);
+    font-weight:400;
+    font-size:20px;
+}
+
+.about-section p{
+    font-weight:400;
+    font-size:20px;
+    color:#333333;
+}
+
+
+/* career-section */
+
+
+.career-section span.career-word{
+    color: var(--text-color);
+}
+.career-section h1{
+    font-weight:400;
+    font-size:30px;
+    color:#181818;
+}
+.career-section span{
+    font-weight:400;
+    font-size:16px;
+    color:#333333;
+}
+
+
+.career-section p{
+    font-weight:400;
+    font-size:24px;
+    color:#181818;
+}
+
+/* service-section */
+
+.service-section{
+    margin: 70px 0px;
+}
+
+.service-section span{
+    color: var(--text-color);
+    font-weight:400;
+    font-size:24px;
+}
+
+.service-section h3{
+    font-weight:400;
+    font-size:25px;
+    color: #181818;
+}
+
+.service-section p{
+    font-weight:400;
+    font-size:40px;
+    color:#181818;
+}
+
+.service-section-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.card-1{
+    border: 1px solid #FF5588;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0px 10px;
+    height: 110px;
+    
+}
+
+.card-1 p{
+    font-weight:400;
+    font-size:24px;
+    color:#181818;
+    padding: 0px 30px;
+}
+
+.card-1 span{
+    font-weight:400;
+    font-size:16px;
+    color:#333333;
+}
+
+
+.card-1:hover{
+    background-color: var(--text-color);
+    cursor: pointer;
+    border: none;
+    box-shadow: 4px -1px 27px 0px rgba(0,0,0,0.75);
+}
+
+
+.card-2{
+    border: 1px solid #333333;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0px 50px;
+    height: 110px;
+}
+
+.card-2 .branding{
+    font-weight: 400;
+    font-size: 26px;
+    color:#181818;
+}
+
+.card-2 span{
+    font-family:400;
+    font-size:16px;
+    color:#333333;
+}
+
+
+.card-2:hover{
+    background-color: var(--text-color);
+    cursor: pointer;
+    border: none;
+    box-shadow: 4px -1px 27px 0px rgba(0,0,0,0.75);
+}
+
+.card-3{
+    border: 1px solid #333333;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0px 50px;
+    height: 110px;
+}
+
+
+.card-3 p{
+    font-weight:400;
+    font-size:24px;
+    color:#181818;
+}
+
+
+.card-3 span{
+    font-weight:400;
+    font-size:16px;
+    color:#333333;
+}
+
+
+.card-3:hover{
+    background-color: var(--text-color);
+    color:white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 4px -1px 27px 0px rgba(0,0,0,0.75);
+}
+/* skill-section */
+
+.skill-section span{
+    color: var(--text-color);
+    font-weight:400;
+    font-size:24px;
+
+}
+
+.skill-section p{
+    font-weight:400;
+    font-size:40px;
+    color:#181818;
+}
+
+.skill-images{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* project-images-section */
+
+.project-images{
+    margin: 70px 0;
+}
+
+.project-images span{
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+.project-images h1{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+/* testimonal-section */
+
+
+.testimonal span{
+    color: var(--text-color);
+    font-weight: 400;
+    font-size:24px ;
+}
+
+.testimonal h1{
+    font-weight: 400;
+    font-size: 40px;
+    color:#181818;
+}
+
+
+.testimonal-card{
+    border: 1px solid #333333;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+
+.testimonal-user-detail{
+    display: flex;
+    align-items: center;
+}
+
+.user-details{
+    margin: 10px;
+}
+
+.user-card-detail h1{
+    font-weight: 600;
+    font-size: 24px;
+    color:#181818;
+}
+
+.user-card-detail p{
+    font-weight: 400;
+    font-size: 20px;
+    color:#181818;
+    padding: 10px opx;
+}
+
+
+/* brand-section */
+
+.brand-section{
+    padding: 90px 0px;
+}
+
+.brand-section span{
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+.brand-section h1{
+    font-weight: 400;
+    font-size: 24px;
+    color:#181818;
+}
+
+.brand-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* form-section */
+
+
+
+.contact h3{
+    color: var(--text-color);
+    /* font-weight: 400; */
+    font-size: 24px;
+    margin-bottom: 50px !important;
+    
+
+}
+
+
+.contact-form label{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #333333;
+
+}
+
+
+.form-input{
+    border: none;
+    border-bottom: 2px solid #F6F0F2;
+    width: 50%;
+    margin: 20px;
+}
+
+.contact-form input:focus{
+    outline: none;
+}
+
+
+.contact-form textarea:focus{
+    outline:none;
+}
+
+
+.form-btn{
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+.form-btn:hover{
+    background-color: var(--text-color);
+    color:white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 4px -1px 27px 0px rgba(0,0,0,0.75);
+}
